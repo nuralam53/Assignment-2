@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+.italic {
+  font-family: "Ms Madi", cursive;
+  font-style: 100px;
+  font-weight: 900;
+}
+/* hight width */
+.navbar,
+.banner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.brand {
+  color: #e6533c;
+  font-style: italic;
+  font-weight: extra-bold;
+  font-size: 2.25rem;
+}
+
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-item {
+  list-style: none;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin-left: 45px;
+  font-size: 1.12rem;
+  color: #ffffff;
+  margin-right: 15px;
+}
+
+.banner-title {
+  font-size: 4.8rem;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.banner-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.banner-img {
+  width: 349px;
+  height: 580px;
+}
+
+.button-1 {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  padding: 16px 40px 16px 40px;
+  border: none;
+}
+
+.button-2 {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 42px;
+  padding: 16px 40px 16px 40px;
+  color: rgb(255, 255, 255);
+}
+
+.banner-color {
+  background: linear-gradient(
+    180deg,
+    rgb(17, 17, 17),
+    rgba(119, 119, 119, 0) 100%
+  );
+}
